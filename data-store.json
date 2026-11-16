@@ -1,0 +1,606 @@
+{
+  "users": [
+    {
+      "id": "user-admin-001",
+      "name": "System Administrator",
+      "email": "admin@career.ai",
+      "passwordHash": "$2a$10$3z7G9aK5oZ72X4f.fN52v.J50X56jP4A53X64eZ0Z5.Y47A13X12G",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "role": "admin",
+      "isBlocked": false,
+      "targetRole": "Chief Technology Officer",
+      "skills": [
+        "System Architecture",
+        "Security",
+        "AI Strategy",
+        "Database Engineering"
+      ],
+      "createdAt": "2026-10-17T14:08:16.490Z"
+    },
+    {
+      "id": "user-demo-123",
+      "name": "Alex Morgan",
+      "email": "alex@example.com",
+      "role": "user",
+      "isBlocked": false,
+      "passwordHash": "$2a$10$w0u3Nq50p6hP4C7QvYt.8u0A2d3a3E.m7P5Q1I3K.vN0Y.uE9m2aG",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "phone": "+1 (555) 234-5678",
+      "targetRole": "Full Stack Engineer",
+      "skills": [
+        "React",
+        "TypeScript",
+        "Node.js",
+        "Express",
+        "Tailwind CSS"
+      ],
+      "experienceLevel": "Intermediate",
+      "experience": "2 Years (Projects & Internships)",
+      "education": "Bachelor's Degree",
+      "college": "Stanford University",
+      "degree": "B.S. Computer Science",
+      "interests": [
+        "AI Systems",
+        "Full Stack Development",
+        "Cloud Architecture"
+      ],
+      "preferredLocation": "San Francisco, CA (or Remote)",
+      "careerGoal": "Lead AI Engineer in a high-growth technology startup",
+      "languages": [
+        "English (Native)",
+        "Spanish (Conversational)"
+      ],
+      "linkedin": "https://linkedin.com/in/alex-morgan-dev",
+      "github": "https://github.com/alexmorgan-dev",
+      "bio": "Aspiring AI Full Stack Developer looking to master modern web stacks & AI integration.",
+      "createdAt": "2026-11-01T14:08:16.505Z"
+    },
+    {
+      "id": "user-demo-456",
+      "name": "Sarah Chen",
+      "email": "sarah.c@techdev.org",
+      "role": "user",
+      "isBlocked": false,
+      "passwordHash": "$2a$10$w0u3Nq50p6hP4C7QvYt.8u0A2d3a3E.m7P5Q1I3K.vN0Y.uE9m2aG",
+      "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150&auto=format&fit=crop&q=80",
+      "targetRole": "Data Scientist",
+      "skills": [
+        "Python",
+        "TensorFlow",
+        "Pandas",
+        "SQL"
+      ],
+      "experienceLevel": "Senior",
+      "createdAt": "2026-11-06T14:08:16.509Z"
+    },
+    {
+      "id": "guest-user",
+      "name": "Guest Explorer",
+      "email": "guest@example.com",
+      "passwordHash": "",
+      "role": "user",
+      "targetRole": "Full Stack Software Engineer",
+      "skills": [
+        "React",
+        "JavaScript",
+        "HTML/CSS",
+        "Python",
+        "Problem Solving"
+      ],
+      "experienceLevel": "Entry Level",
+      "education": "Bachelor's Degree",
+      "interests": [
+        "AI",
+        "Full Stack"
+      ],
+      "createdAt": "2026-11-16T14:08:22.375Z"
+    }
+  ],
+  "assessments": [
+    {
+      "id": "assessment-1794838173380",
+      "userId": "guest",
+      "quizData": {
+        "skills": [
+          "React",
+          "JavaScript",
+          "HTML/CSS",
+          "Python",
+          "Problem Solving"
+        ],
+        "interests": [
+          "Software Engineering",
+          "Artificial Intelligence",
+          "Web Systems"
+        ],
+        "education": "Bachelor's Degree",
+        "experienceYears": "Entry Level",
+        "preferredLocation": "San Francisco / Remote",
+        "workStyle": "Hybrid / Remote",
+        "values": [
+          "High Growth",
+          "Technical Mastery",
+          "Competitive Salary"
+        ],
+        "preferredIndustry": "Technology"
+      },
+      "recommendations": [
+        {
+          "id": "ai-fullstack-dev",
+          "title": "AI Full-Stack Developer",
+          "matchScore": 94,
+          "description": "Build end-to-end web applications powered by generative AI models, vector search, and scalable backend services.",
+          "salaryRange": "₹12,00,000 - ₹22,00,000/year",
+          "growthOutlook": "28% growth (High Demand)",
+          "requiredSkills": [
+            "React",
+            "TypeScript",
+            "Node.js",
+            "Gemini API",
+            "Python",
+            "Tailwind CSS"
+          ],
+          "missingSkills": [
+            "Vector Databases",
+            "LangChain/LlamaIndex",
+            "Model Fine-tuning"
+          ],
+          "whyGoodFit": "Your background in web development and passion for modern tech aligns directly with building next-gen AI applications.",
+          "suitableCertifications": [
+            "AWS Certified Developer Associate",
+            "Google Cloud Professional Cloud Developer",
+            "Meta Front-End Developer Professional Certificate"
+          ],
+          "careerRoadmap": [
+            "Phase 1: Master Modern Full-Stack (React 19, TypeScript, Express)",
+            "Phase 2: LLM API Integration & Serverless AI Workflows",
+            "Phase 3: Vector Databases & RAG System Architecture",
+            "Phase 4: Cloud Deployment, CI/CD & Production Scalability"
+          ],
+          "keyResponsibilities": [
+            "Design responsive user interfaces for modern web tools",
+            "Integrate LLMs and server-side API endpoints",
+            "Deploy microservices and cloud databases"
+          ]
+        },
+        {
+          "id": "data-scientist-ai",
+          "title": "Data & Machine Learning Engineer",
+          "matchScore": 88,
+          "description": "Transform complex data streams into actionable predictive models and automated intelligent features.",
+          "salaryRange": "₹15,00,000 - ₹26,00,000/year",
+          "growthOutlook": "24% growth (Very High Demand)",
+          "requiredSkills": [
+            "Python",
+            "SQL",
+            "Pandas",
+            "Scikit-Learn",
+            "PyTorch",
+            "Data Visualization"
+          ],
+          "missingSkills": [
+            "PyTorch",
+            "Feature Engineering",
+            "MLOps"
+          ],
+          "whyGoodFit": "Strong analytical mindset and interest in algorithms make ML engineering a lucrative long-term path.",
+          "suitableCertifications": [
+            "TensorFlow Developer Certificate",
+            "AWS Certified Machine Learning - Specialty",
+            "Databricks Certified Machine Learning Professional"
+          ],
+          "careerRoadmap": [
+            "Phase 1: Python, Math Fundamentals & Data Wrangling",
+            "Phase 2: Supervised/Unsupervised Learning Models",
+            "Phase 3: Deep Learning, PyTorch & NLP Models",
+            "Phase 4: MLOps, Model Monitoring & Production Serving"
+          ],
+          "keyResponsibilities": [
+            "Preprocess structured and unstructured datasets",
+            "Train, evaluate, and tune machine learning models",
+            "Monitor model performance in production pipelines"
+          ]
+        },
+        {
+          "id": "cloud-devops-engineer",
+          "title": "Cloud & AI Infrastructure Engineer",
+          "matchScore": 85,
+          "description": "Manage scalable cloud deployment pipelines, container orchestration, and serverless architectures.",
+          "salaryRange": "₹10,50,000 - ₹20,00,000/year",
+          "growthOutlook": "20% growth (Steady High Demand)",
+          "requiredSkills": [
+            "Docker",
+            "Kubernetes",
+            "AWS/GCP",
+            "CI/CD",
+            "Terraform",
+            "Linux"
+          ],
+          "missingSkills": [
+            "Kubernetes",
+            "Terraform",
+            "Cloud Security"
+          ],
+          "whyGoodFit": "Suited for engineers who value system architecture, uptime reliability, and infrastructure automation.",
+          "suitableCertifications": [
+            "Certified Kubernetes Administrator (CKA)",
+            "AWS Certified Solutions Architect",
+            "HashiCorp Certified Terraform Associate"
+          ],
+          "careerRoadmap": [
+            "Phase 1: Linux Administration & Bash Shell Scripting",
+            "Phase 2: Containerization with Docker & CI/CD Pipelines",
+            "Phase 3: Kubernetes Cluster Management & Terraform IaC",
+            "Phase 4: Multi-Cloud Reliability Engineering & Observability"
+          ],
+          "keyResponsibilities": [
+            "Build automated CI/CD deployment pipelines",
+            "Manage Docker containers and Kubernetes clusters",
+            "Optimize cloud infrastructure cost and latency"
+          ]
+        },
+        {
+          "id": "product-manager-tech",
+          "title": "Technical AI Product Manager",
+          "matchScore": 82,
+          "description": "Bridge customer needs and engineering capabilities to launch innovative software products.",
+          "salaryRange": "₹14,00,000 - ₹24,00,000/year",
+          "growthOutlook": "18% growth",
+          "requiredSkills": [
+            "Product Roadmap",
+            "User Research",
+            "Agile/Scrum",
+            "Data Analytics",
+            "Wireframing"
+          ],
+          "missingSkills": [
+            "A/B Testing Frameworks",
+            "Product Analytics (Mixpanel)"
+          ],
+          "whyGoodFit": "Great fit for professionals with strong communication, problem-solving, and strategic thinking.",
+          "suitableCertifications": [
+            "Certified Scrum Product Owner (CSPO)",
+            "Pragmatic Institute Certified Product Manager",
+            "Google Data Analytics Professional Certificate"
+          ],
+          "careerRoadmap": [
+            "Phase 1: Product Discovery, User Research & Agile Frameworks",
+            "Phase 2: Roadmap Definition, Technical Specifications & Metrics",
+            "Phase 3: AI Product Design, Prototyping & UX Feedback Loops",
+            "Phase 4: Product Launch Strategy, A/B Testing & Growth Optimization"
+          ],
+          "keyResponsibilities": [
+            "Define product vision and feature prioritization",
+            "Collaborate with engineering and design teams",
+            "Analyze key metrics and user feedback loops"
+          ]
+        }
+      ],
+      "createdAt": "2026-11-16T14:09:33.380Z"
+    },
+    {
+      "id": "assessment-1794838173533",
+      "userId": "guest",
+      "quizData": {
+        "skills": [
+          "React",
+          "JavaScript",
+          "HTML/CSS",
+          "Python",
+          "Problem Solving"
+        ],
+        "interests": [
+          "Software Engineering",
+          "Artificial Intelligence",
+          "Web Systems"
+        ],
+        "education": "Bachelor's Degree",
+        "experienceYears": "Entry Level",
+        "preferredLocation": "San Francisco / Remote",
+        "workStyle": "Hybrid / Remote",
+        "values": [
+          "High Growth",
+          "Technical Mastery",
+          "Competitive Salary"
+        ],
+        "preferredIndustry": "Technology"
+      },
+      "recommendations": [
+        {
+          "id": "ai-fullstack-dev",
+          "title": "AI Full-Stack Developer",
+          "matchScore": 94,
+          "description": "Build end-to-end web applications powered by generative AI models, vector search, and scalable backend services.",
+          "salaryRange": "₹12,00,000 - ₹22,00,000/year",
+          "growthOutlook": "28% growth (High Demand)",
+          "requiredSkills": [
+            "React",
+            "TypeScript",
+            "Node.js",
+            "Gemini API",
+            "Python",
+            "Tailwind CSS"
+          ],
+          "missingSkills": [
+            "Vector Databases",
+            "LangChain/LlamaIndex",
+            "Model Fine-tuning"
+          ],
+          "whyGoodFit": "Your background in web development and passion for modern tech aligns directly with building next-gen AI applications.",
+          "suitableCertifications": [
+            "AWS Certified Developer Associate",
+            "Google Cloud Professional Cloud Developer",
+            "Meta Front-End Developer Professional Certificate"
+          ],
+          "careerRoadmap": [
+            "Phase 1: Master Modern Full-Stack (React 19, TypeScript, Express)",
+            "Phase 2: LLM API Integration & Serverless AI Workflows",
+            "Phase 3: Vector Databases & RAG System Architecture",
+            "Phase 4: Cloud Deployment, CI/CD & Production Scalability"
+          ],
+          "keyResponsibilities": [
+            "Design responsive user interfaces for modern web tools",
+            "Integrate LLMs and server-side API endpoints",
+            "Deploy microservices and cloud databases"
+          ]
+        },
+        {
+          "id": "data-scientist-ai",
+          "title": "Data & Machine Learning Engineer",
+          "matchScore": 88,
+          "description": "Transform complex data streams into actionable predictive models and automated intelligent features.",
+          "salaryRange": "₹15,00,000 - ₹26,00,000/year",
+          "growthOutlook": "24% growth (Very High Demand)",
+          "requiredSkills": [
+            "Python",
+            "SQL",
+            "Pandas",
+            "Scikit-Learn",
+            "PyTorch",
+            "Data Visualization"
+          ],
+          "missingSkills": [
+            "PyTorch",
+            "Feature Engineering",
+            "MLOps"
+          ],
+          "whyGoodFit": "Strong analytical mindset and interest in algorithms make ML engineering a lucrative long-term path.",
+          "suitableCertifications": [
+            "TensorFlow Developer Certificate",
+            "AWS Certified Machine Learning - Specialty",
+            "Databricks Certified Machine Learning Professional"
+          ],
+          "careerRoadmap": [
+            "Phase 1: Python, Math Fundamentals & Data Wrangling",
+            "Phase 2: Supervised/Unsupervised Learning Models",
+            "Phase 3: Deep Learning, PyTorch & NLP Models",
+            "Phase 4: MLOps, Model Monitoring & Production Serving"
+          ],
+          "keyResponsibilities": [
+            "Preprocess structured and unstructured datasets",
+            "Train, evaluate, and tune machine learning models",
+            "Monitor model performance in production pipelines"
+          ]
+        },
+        {
+          "id": "cloud-devops-engineer",
+          "title": "Cloud & AI Infrastructure Engineer",
+          "matchScore": 85,
+          "description": "Manage scalable cloud deployment pipelines, container orchestration, and serverless architectures.",
+          "salaryRange": "₹10,50,000 - ₹20,00,000/year",
+          "growthOutlook": "20% growth (Steady High Demand)",
+          "requiredSkills": [
+            "Docker",
+            "Kubernetes",
+            "AWS/GCP",
+            "CI/CD",
+            "Terraform",
+            "Linux"
+          ],
+          "missingSkills": [
+            "Kubernetes",
+            "Terraform",
+            "Cloud Security"
+          ],
+          "whyGoodFit": "Suited for engineers who value system architecture, uptime reliability, and infrastructure automation.",
+          "suitableCertifications": [
+            "Certified Kubernetes Administrator (CKA)",
+            "AWS Certified Solutions Architect",
+            "HashiCorp Certified Terraform Associate"
+          ],
+          "careerRoadmap": [
+            "Phase 1: Linux Administration & Bash Shell Scripting",
+            "Phase 2: Containerization with Docker & CI/CD Pipelines",
+            "Phase 3: Kubernetes Cluster Management & Terraform IaC",
+            "Phase 4: Multi-Cloud Reliability Engineering & Observability"
+          ],
+          "keyResponsibilities": [
+            "Build automated CI/CD deployment pipelines",
+            "Manage Docker containers and Kubernetes clusters",
+            "Optimize cloud infrastructure cost and latency"
+          ]
+        },
+        {
+          "id": "product-manager-tech",
+          "title": "Technical AI Product Manager",
+          "matchScore": 82,
+          "description": "Bridge customer needs and engineering capabilities to launch innovative software products.",
+          "salaryRange": "₹14,00,000 - ₹24,00,000/year",
+          "growthOutlook": "18% growth",
+          "requiredSkills": [
+            "Product Roadmap",
+            "User Research",
+            "Agile/Scrum",
+            "Data Analytics",
+            "Wireframing"
+          ],
+          "missingSkills": [
+            "A/B Testing Frameworks",
+            "Product Analytics (Mixpanel)"
+          ],
+          "whyGoodFit": "Great fit for professionals with strong communication, problem-solving, and strategic thinking.",
+          "suitableCertifications": [
+            "Certified Scrum Product Owner (CSPO)",
+            "Pragmatic Institute Certified Product Manager",
+            "Google Data Analytics Professional Certificate"
+          ],
+          "careerRoadmap": [
+            "Phase 1: Product Discovery, User Research & Agile Frameworks",
+            "Phase 2: Roadmap Definition, Technical Specifications & Metrics",
+            "Phase 3: AI Product Design, Prototyping & UX Feedback Loops",
+            "Phase 4: Product Launch Strategy, A/B Testing & Growth Optimization"
+          ],
+          "keyResponsibilities": [
+            "Define product vision and feature prioritization",
+            "Collaborate with engineering and design teams",
+            "Analyze key metrics and user feedback loops"
+          ]
+        }
+      ],
+      "createdAt": "2026-11-16T14:09:33.533Z"
+    }
+  ],
+  "roadmaps": [],
+  "resumes": [],
+  "interviews": [],
+  "bookmarks": [],
+  "skillGaps": [],
+  "feedbacks": [
+    {
+      "id": "fb-1",
+      "userId": "user-demo-123",
+      "userName": "Alex Morgan",
+      "userEmail": "alex@example.com",
+      "rating": 5,
+      "category": "AI Career Guidance",
+      "feedbackText": "The AI Career Roadmap and Skill Gap Analysis are remarkably accurate! It accurately pinpointed my missing cloud architecture skills.",
+      "createdAt": "2026-11-14T14:08:16.524Z"
+    },
+    {
+      "id": "fb-2",
+      "userName": "Sarah Chen",
+      "userEmail": "sarah.c@techdev.org",
+      "rating": 5,
+      "category": "Mock Interviews",
+      "feedbackText": "The real-time AI mock interview questions gave me so much confidence before my Senior React developer interview. Highly recommended!",
+      "createdAt": "2026-11-11T14:08:16.524Z"
+    },
+    {
+      "id": "fb-3",
+      "userName": "David K.",
+      "userEmail": "david.k@cloudnet.io",
+      "rating": 4,
+      "category": "Course & Job Recommendations",
+      "feedbackText": "Great curated list of free and paid certifications. Helped me pick my AWS Cloud Architect path effortlessly.",
+      "createdAt": "2026-11-09T14:08:16.524Z"
+    }
+  ],
+  "careers": [
+    {
+      "id": "car-1",
+      "title": "Full Stack AI Engineer",
+      "category": "Software Development",
+      "avgSalary": "₹15,00,000 - ₹28,00,000/year",
+      "growthOutlook": "+28% (2024-2030)",
+      "demandLevel": "Very High",
+      "requiredSkills": [
+        "React",
+        "TypeScript",
+        "Node.js",
+        "Python",
+        "LLMs",
+        "PostgreSQL"
+      ],
+      "description": "Designs, builds, and deploys scalable web applications powered by generative AI models and intelligent backend microservices.",
+      "activeJobsCount": 14200,
+      "createdAt": "2026-11-16T14:08:16.511Z"
+    },
+    {
+      "id": "car-2",
+      "title": "Cloud Solutions Architect",
+      "category": "Cloud & DevOps",
+      "avgSalary": "₹18,00,000 - ₹32,00,000/year",
+      "growthOutlook": "+24% (2024-2030)",
+      "demandLevel": "Very High",
+      "requiredSkills": [
+        "AWS",
+        "Docker",
+        "Kubernetes",
+        "Terraform",
+        "CI/CD",
+        "Security"
+      ],
+      "description": "Architects resilient, secure, and cost-optimized cloud infrastructure on AWS, Google Cloud, and Azure platforms.",
+      "activeJobsCount": 9800,
+      "createdAt": "2026-11-16T14:08:16.511Z"
+    },
+    {
+      "id": "car-3",
+      "title": "Cybersecurity Specialist",
+      "category": "Information Security",
+      "avgSalary": "₹12,00,000 - ₹25,00,000/year",
+      "growthOutlook": "+32% (2024-2030)",
+      "demandLevel": "Very High",
+      "requiredSkills": [
+        "Penetration Testing",
+        "SIEM",
+        "Network Security",
+        "Python",
+        "Risk Assessment"
+      ],
+      "description": "Protects organizational assets and cloud networks against cyber threats, data breaches, and vulnerability exploits.",
+      "activeJobsCount": 11500,
+      "createdAt": "2026-11-16T14:08:16.511Z"
+    }
+  ],
+  "courses": [
+    {
+      "id": "crs-1",
+      "title": "Full Stack React & Node.js Masterclass",
+      "provider": "Coursera / Meta",
+      "type": "Free",
+      "level": "Intermediate",
+      "duration": "6 Weeks",
+      "category": "Web Development",
+      "rating": 4.9,
+      "courseUrl": "https://www.coursera.org",
+      "createdAt": "2026-11-16T14:08:16.518Z"
+    },
+    {
+      "id": "crs-2",
+      "title": "AWS Certified Solutions Architect Associate",
+      "provider": "AWS Training & Certification",
+      "type": "Certification",
+      "level": "Intermediate",
+      "duration": "8 Weeks",
+      "category": "Cloud Computing",
+      "rating": 4.8,
+      "courseUrl": "https://aws.amazon.com/certification/",
+      "createdAt": "2026-11-16T14:08:16.518Z"
+    },
+    {
+      "id": "crs-3",
+      "title": "Applied Machine Learning with Python",
+      "provider": "DeepLearning.AI",
+      "type": "Paid",
+      "level": "Advanced",
+      "duration": "10 Weeks",
+      "category": "Data Science & AI",
+      "rating": 4.9,
+      "courseUrl": "https://www.deeplearning.ai",
+      "createdAt": "2026-11-16T14:08:16.518Z"
+    }
+  ],
+  "announcements": [
+    {
+      "id": "ann-1",
+      "title": "System Launch",
+      "content": "Welcome to the AI Career Guidance platform! Fill out your profile and start your Skill Assessment today.",
+      "date": "2026-11-16",
+      "author": "System Admin"
+    }
+  ],
+  "chatHistory": [],
+  "activityLogs": [],
+  "notifications": []
+}

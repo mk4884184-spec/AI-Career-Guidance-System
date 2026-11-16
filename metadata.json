@@ -1,0 +1,6 @@
+{
+  "name": "AI Career Guidance System",
+  "description": "Comprehensive AI-powered career counseling platform providing career path recommendations, skill gap analysis, AI resume assessment, interactive career roadmaps, and mock interview preparation powered by Google Gemini.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
